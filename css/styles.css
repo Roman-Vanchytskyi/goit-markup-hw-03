@@ -76,7 +76,7 @@ ul {
 
 .header {
 	background-color: var(--minor-color);
-	border: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
 }
 .header .container {
 	display: flex;
@@ -86,9 +86,9 @@ ul {
 .logo-header {
 	font-family: "Raleway", sans-serif;
 	font-size: 0px;
-	margin-right: 93px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	padding-right: 93px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .logo-web {
@@ -161,11 +161,11 @@ ul {
 
 .hero {
 	background-color: var(--hero-background);
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .hero-content {
-	padding-top: 200px;
-	padding-bottom: 200px;
 	text-align: center;
 }
 
@@ -239,7 +239,7 @@ ul {
 /* -------ACTIVITY------- */
 
 .activity {
-	margin-bottom: 94px;
+	padding-bottom: 94px;
 }
 
 .activity-title {
@@ -319,14 +319,14 @@ ul {
 
 .footer {
 	background-color: var(--footer-background);
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .logo-footer {
 	font-family: "Raleway", sans-serif;
 	font-size: 0px;
 	display: inline-block;
-	margin-top: 60px;
-	margin-bottom: 20px;
 }
 
 .logo-web {
@@ -370,9 +370,13 @@ ul {
 	color: var(--accent-color);
 }
 
-.adr-margin {
+.mail-margin {
 	margin-bottom: 9px;
 	margin-top: 9px;
+}
+
+.adr-margin {
+	margin-top: 20px;
 }
 
 /* ------PORTFOLIO------- */
